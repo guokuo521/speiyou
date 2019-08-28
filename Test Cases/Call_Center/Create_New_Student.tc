@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create_New_Student</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0938ba4a-aceb-4ecc-9d12-cf9271443f13</testCaseGuid>
+   <variable>
+      <defaultValue>'郭阔'</defaultValue>
+      <description></description>
+      <id>cfc644c9-3ded-402e-98ea-61671c7446bc</id>
+      <masked>false</masked>
+      <name>stuname</name>
+   </variable>
+   <variable>
+      <defaultValue>'女'</defaultValue>
+      <description></description>
+      <id>61a5c599-df15-42df-bfa2-df488226f5ce</id>
+      <masked>false</masked>
+      <name>sex</name>
+   </variable>
+   <variable>
+      <defaultValue>'2019-07-13'</defaultValue>
+      <description></description>
+      <id>d6aa079a-6fba-4b55-84fb-78f7964f30e9</id>
+      <masked>false</masked>
+      <name>birthday</name>
+   </variable>
+</TestCaseEntity>

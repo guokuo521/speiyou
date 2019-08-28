@@ -1,0 +1,73 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+call_center,Firefox 65.0,,,2019-08-27 21:49:37,2019-08-27 21:51:07,1m - 29.959s,INCOMPLETE
+,,,,,,,
+Test Cases/Call_Center/Login,Firefox 65.0,,,2019-08-27 21:49:40,2019-08-27 21:49:54,13.928s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 65.0,,,2019-08-27 21:49:40,2019-08-27 21:49:40,0.023s,PASSED
+"openBrowser("""")",Firefox 65.0,,,2019-08-27 21:49:41,2019-08-27 21:49:51,10.108s,PASSED
+"navigateToUrl(""http://call-center-beta.speiyou.net/login"")",Firefox 65.0,,,2019-08-27 21:49:51,2019-08-27 21:49:53,1.915s,PASSED
+"setText(findTestObject(""Object Repository/CallCenter/CreateNewStudent/Page_Login/input__username""), username)",Firefox 65.0,,,2019-08-27 21:49:53,2019-08-27 21:49:54,0.345s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/CallCenter/CreateNewStudent/Page_Login/input_password""), password)",Firefox 65.0,,,2019-08-27 21:49:54,2019-08-27 21:49:54,0.482s,FAILED
+,,,,,,,
+Test Cases/Call_Center/Create_New_Student,Firefox 65.0,,,2019-08-27 21:49:54,2019-08-27 21:50:32,37.829s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 65.0,,,2019-08-27 21:49:54,2019-08-27 21:49:54,0.035s,PASSED
+"openBrowser("""")",Firefox 65.0,,,2019-08-27 21:49:55,2019-08-27 21:50:06,10.649s,PASSED
+navigateToUrl(url),Firefox 65.0,,,2019-08-27 21:50:06,2019-08-27 21:50:08,2.185s,PASSED
+maximizeWindow(),Firefox 65.0,,,2019-08-27 21:50:08,2019-08-27 21:50:08,0.291s,PASSED
+"setText(findTestObject(""CallCenter/CreateNewStudent/Page_Login/input__username""), ""3018"")",Firefox 65.0,,,2019-08-27 21:50:08,2019-08-27 21:50:08,0.244s,PASSED
+"setEncryptedText(findTestObject(""CallCenter/CreateNewStudent/Page_Login/input_password""), ""4nvbrPglk7k="")",Firefox 65.0,,,2019-08-27 21:50:08,2019-08-27 21:50:08,0.212s,PASSED
+"click(findTestObject(""CallCenter/Page_Login/btn_login""))",Firefox 65.0,,,2019-08-27 21:50:08,2019-08-27 21:50:09,0.448s,PASSED
+"click(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/select_custmor_dropdown""))",Firefox 65.0,,,2019-08-27 21:50:09,2019-08-27 21:50:13,4.483s,PASSED
+"click(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/btn_signup""))",Firefox 65.0,,,2019-08-27 21:50:13,2019-08-27 21:50:14,0.598s,PASSED
+"click(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/button_addNewStudent""))",Firefox 65.0,,,2019-08-27 21:50:14,2019-08-27 21:50:22,7.648s,PASSED
+"setText(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/input_studentName""), stuname)",Firefox 65.0,,,2019-08-27 21:50:22,2019-08-27 21:50:22,0.314s,PASSED
+"setText(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/input_birthday""), birthday)",Firefox 65.0,,,2019-08-27 21:50:22,2019-08-27 21:50:22,0.274s,PASSED
+userSex(),Firefox 65.0,,,2019-08-27 21:50:22,2019-08-27 21:50:22,0.001s,PASSED
+"if (String.valueOf(sex) == ""女"")",Firefox 65.0,,,2019-08-27 21:50:22,2019-08-27 21:50:22,0.001s,PASSED
+"click(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/select_city_list_1""))",Firefox 65.0,,,2019-08-27 21:50:22,2019-08-27 21:50:23,0.997s,PASSED
+"click(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/li_beiijing""))",Firefox 65.0,,,2019-08-27 21:50:23,2019-08-27 21:50:24,0.575s,PASSED
+"click(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/select_city_list_2""))",Firefox 65.0,,,2019-08-27 21:50:24,2019-08-27 21:50:24,0.410s,PASSED
+"click(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/li_beijingArea""))",Firefox 65.0,,,2019-08-27 21:50:24,2019-08-27 21:50:25,0.369s,PASSED
+"click(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/select_gtade_1""))",Firefox 65.0,,,2019-08-27 21:50:25,2019-08-27 21:50:25,0.354s,PASSED
+"click(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/li_xiaoxue""))",Firefox 65.0,,,2019-08-27 21:50:25,2019-08-27 21:50:26,0.727s,PASSED
+"click(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/select_gtade_2""))",Firefox 65.0,,,2019-08-27 21:50:26,2019-08-27 21:50:26,0.784s,PASSED
+"click(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/li_grade3""))",Firefox 65.0,,,2019-08-27 21:50:26,2019-08-27 21:50:27,0.740s,PASSED
+"setText(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/input_phone""), ""136"" + utils.seleniumUtil.get8RandomNum())",Firefox 65.0,,,2019-08-27 21:50:27,2019-08-27 21:50:28,0.361s,PASSED
+"click(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/select_mother_1""))",Firefox 65.0,,,2019-08-27 21:50:28,2019-08-27 21:50:28,0.348s,PASSED
+"click(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/select_mother_2""))",Firefox 65.0,,,2019-08-27 21:50:28,2019-08-27 21:50:28,0.334s,PASSED
+"click(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/button_safe""))",Firefox 65.0,,,2019-08-27 21:50:28,2019-08-27 21:50:29,0.488s,PASSED
+"verifyElementPresent(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/text_create_success""), 2000)",Firefox 65.0,,,2019-08-27 21:50:29,2019-08-27 21:50:30,0.905s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Checkpoint""), false)",Firefox 65.0,,,2019-08-27 21:50:30,2019-08-27 21:50:30,0.541s,PASSED
+switchToDefaultContent(),Firefox 65.0,,,2019-08-27 21:50:30,2019-08-27 21:50:30,0.022s,PASSED
+closeBrowser(),Firefox 65.0,,,2019-08-27 21:50:30,2019-08-27 21:50:32,1.839s,PASSED
+,,,,,,,
+Test Cases/Call_Center/Create_New_Student,Firefox 65.0,,,2019-08-27 21:50:32,2019-08-27 21:51:07,34.871s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 65.0,,,2019-08-27 21:50:32,2019-08-27 21:50:32,0.005s,PASSED
+"openBrowser("""")",Firefox 65.0,,,2019-08-27 21:50:32,2019-08-27 21:50:38,5.738s,PASSED
+navigateToUrl(url),Firefox 65.0,,,2019-08-27 21:50:38,2019-08-27 21:50:41,3.668s,PASSED
+maximizeWindow(),Firefox 65.0,,,2019-08-27 21:50:41,2019-08-27 21:50:42,0.315s,PASSED
+"setText(findTestObject(""CallCenter/CreateNewStudent/Page_Login/input__username""), ""3018"")",Firefox 65.0,,,2019-08-27 21:50:42,2019-08-27 21:50:42,0.143s,PASSED
+"setEncryptedText(findTestObject(""CallCenter/CreateNewStudent/Page_Login/input_password""), ""4nvbrPglk7k="")",Firefox 65.0,,,2019-08-27 21:50:42,2019-08-27 21:50:42,0.127s,PASSED
+"click(findTestObject(""CallCenter/Page_Login/btn_login""))",Firefox 65.0,,,2019-08-27 21:50:42,2019-08-27 21:50:42,0.376s,PASSED
+"click(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/select_custmor_dropdown""))",Firefox 65.0,,,2019-08-27 21:50:42,2019-08-27 21:50:48,5.133s,PASSED
+"click(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/btn_signup""))",Firefox 65.0,,,2019-08-27 21:50:48,2019-08-27 21:50:48,0.783s,PASSED
+"click(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/button_addNewStudent""))",Firefox 65.0,,,2019-08-27 21:50:48,2019-08-27 21:50:54,5.824s,PASSED
+"setText(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/input_studentName""), stuname)",Firefox 65.0,,,2019-08-27 21:50:54,2019-08-27 21:50:55,0.528s,PASSED
+"setText(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/input_birthday""), birthday)",Firefox 65.0,,,2019-08-27 21:50:55,2019-08-27 21:50:55,0.155s,PASSED
+userSex(),Firefox 65.0,,,2019-08-27 21:50:55,2019-08-27 21:50:55,0.001s,PASSED
+"if (String.valueOf(sex) == ""女"")",Firefox 65.0,,,2019-08-27 21:50:55,2019-08-27 21:50:58,3.024s,PASSED
+"click(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/select_city_list_1""))",Firefox 65.0,,,2019-08-27 21:50:58,2019-08-27 21:50:59,1.418s,PASSED
+"click(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/li_beiijing""))",Firefox 65.0,,,2019-08-27 21:50:59,2019-08-27 21:51:00,0.595s,PASSED
+"click(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/select_city_list_2""))",Firefox 65.0,,,2019-08-27 21:51:00,2019-08-27 21:51:00,0.414s,PASSED
+"click(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/li_beijingArea""))",Firefox 65.0,,,2019-08-27 21:51:00,2019-08-27 21:51:01,0.351s,PASSED
+"click(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/select_gtade_1""))",Firefox 65.0,,,2019-08-27 21:51:01,2019-08-27 21:51:01,0.428s,PASSED
+"click(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/li_xiaoxue""))",Firefox 65.0,,,2019-08-27 21:51:01,2019-08-27 21:51:02,0.580s,PASSED
+"click(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/select_gtade_2""))",Firefox 65.0,,,2019-08-27 21:51:02,2019-08-27 21:51:02,0.365s,PASSED
+"click(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/li_grade3""))",Firefox 65.0,,,2019-08-27 21:51:02,2019-08-27 21:51:03,0.550s,PASSED
+"setText(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/input_phone""), ""136"" + utils.seleniumUtil.get8RandomNum())",Firefox 65.0,,,2019-08-27 21:51:03,2019-08-27 21:51:03,0.341s,PASSED
+"click(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/select_mother_1""))",Firefox 65.0,,,2019-08-27 21:51:03,2019-08-27 21:51:03,0.595s,PASSED
+"click(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/select_mother_2""))",Firefox 65.0,,,2019-08-27 21:51:03,2019-08-27 21:51:04,0.642s,PASSED
+"click(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/button_safe""))",Firefox 65.0,,,2019-08-27 21:51:04,2019-08-27 21:51:04,0.339s,PASSED
+"verifyElementPresent(findTestObject(""CallCenter/CreateNewStudent/Page_Create_New_Student/text_create_success""), 2000)",Firefox 65.0,,,2019-08-27 21:51:04,2019-08-27 21:51:05,0.685s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Checkpoint""), false)",Firefox 65.0,,,2019-08-27 21:51:05,2019-08-27 21:51:05,0.026s,PASSED
+switchToDefaultContent(),Firefox 65.0,,,2019-08-27 21:51:05,2019-08-27 21:51:05,0.051s,PASSED
+closeBrowser(),Firefox 65.0,,,2019-08-27 21:51:05,2019-08-27 21:51:07,1.641s,PASSED

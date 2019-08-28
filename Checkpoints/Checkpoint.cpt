@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Checkpoint</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/username/username</source-url>
+   </source-info>
+   <taken-date>2019-08-27T19:33:08.521</taken-date>
+   <column-names>
+      <column-name>姓名</column-name>
+      <column-name>性别</column-name>
+      <column-name>出生日期</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "郭一",
+      "checked": false
+    },
+    {
+      "value": "男",
+      "checked": false
+    },
+    {
+      "value": "2019-07-13",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "郭三一",
+      "checked": true
+    },
+    {
+      "value": "女",
+      "checked": true
+    },
+    {
+      "value": "2019-07-16",
+      "checked": true
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>
