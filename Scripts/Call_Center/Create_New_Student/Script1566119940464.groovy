@@ -16,6 +16,8 @@ import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
+println ("============================================================")
+println (GlobalVariable.url)
 
 WebUI.navigateToUrl(GlobalVariable.url)
 
